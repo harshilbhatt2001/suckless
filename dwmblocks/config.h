@@ -3,7 +3,7 @@ static const Block blocks[] = {
 	/*Icon*/	/*Command*/		/*Update Interval*/	/*Update Signal*/
 	/* {"⌨", "kbselect", 0, 30}, */
 	/* {"", "cat /tmp/recordingicon 2>/dev/null",	0,	9}, */
-	//{"",	"music",	0,	11},
+	{"",	"music",	0,	11},
 	{"",	"pacpackages",	0,	8},
 	/* {"",	"news",		0,	6}, */
 	/* {"",	"crypto",	0,	13}, */
@@ -14,7 +14,7 @@ static const Block blocks[] = {
 	/* {"",	"price eth Ethereum 🍸",	9000,	23}, */
 	/* {"",	"price btc Bitcoin 💰",				9000,	21}, */
 	/* {"",	"torrent",	20,	7}, */
-    {"",    "disk",    2,   1},
+    {"",    "disk",    2,   2},
     {"",    "cpubars", 1,  17},
 	{"",	"memory",  10,	14},
 	/* {"",	"moonphase",	18000,	17}, */

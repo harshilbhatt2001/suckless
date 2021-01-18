@@ -170,6 +170,8 @@ static Key keys[] = {
 	{ MODKEY|ShiftMask,		XK_r,		spawn,		SHCMD(TERMINAL " -e htop") },
 	{ MODKEY,			XK_t,		setlayout,	{.v = &layouts[0]} }, /* tile */
 	{ MODKEY|ShiftMask,		XK_t,		setlayout,	{.v = &layouts[1]} }, /* bstack */
+    { MODKEY|ControlMask,   XK_t,       spawn,       SHCMD(TERMINAL " -e teams-for-linux")},
+    { MODKEY|ShiftMask|ControlMask,   XK_t,       spawn,       SHCMD(TERMINAL " -e teams")},
 	{ MODKEY,			XK_y,		setlayout,	{.v = &layouts[2]} }, /* spiral */
 	{ MODKEY|ShiftMask,		XK_y,		setlayout,	{.v = &layouts[3]} }, /* dwindle */
 	{ MODKEY,			XK_u,		setlayout,	{.v = &layouts[4]} }, /* deck */
