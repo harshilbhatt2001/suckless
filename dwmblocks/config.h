@@ -3,7 +3,8 @@ static const Block blocks[] = {
 	/*Icon*/	/*Command*/		/*Update Interval*/	/*Update Signal*/
 	/* {"⌨", "kbselect", 0, 30}, */
 	/* {"", "cat /tmp/recordingicon 2>/dev/null",	0,	9}, */
-	{"",	"music",	0,	11},
+	/* {"",	"music",	0,	11}, */
+	{"",	"spotify-blk",	1,	3},
 	{"",	"pacpackages",	0,	8},
 	/* {"",	"news",		0,	6}, */
 	/* {"",	"crypto",	0,	13}, */
